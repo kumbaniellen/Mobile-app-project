@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.widget.Spinner;
 
 public class LandingPageActivity extends AppCompatActivity {
@@ -12,8 +13,7 @@ public class LandingPageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing_page);
 
-        val menu = findViewById< Menu >(R.id.bottom_nav_bar)
-                val navController = findNavController(R.id.)
 
     }
+
 }

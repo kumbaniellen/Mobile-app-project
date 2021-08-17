@@ -65,6 +65,8 @@
 
     </LinearLayout>
 
+
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav_bar"
         android:layout_width="411dp"

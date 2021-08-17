@@ -25,4 +25,11 @@
     <string-array name="supplier_category">
 
     </string-array>
+
+    <string-array name="more_options">
+        <item>Supplier</item>
+        <item>Customer</item>
+        <item>Admin</item>
+
+    </string-array>
 </resources>
