@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EventPlannerApp">
-        <activity android:name=".ViewCatalogues"></activity>
+        <activity android:name=".ViewCategory"></activity>
         <activity android:name=".CustomerProfile" />
         <activity android:name=".SupplierProfile" />
         <activity android:name=".CustomerSignUp" />
         <activity android:name=".Customer_signIn" />
         <activity android:name=".Admin_signUp" />
         <activity android:name=".Admin_signIn" />
-        <activity android:name=".Signup" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".SupplierSignup" />
+        <activity android:name=".SupplierLogin" />
         <activity android:name=".LandingPageActivity" />
         <activity
             android:name=".MainActivity"

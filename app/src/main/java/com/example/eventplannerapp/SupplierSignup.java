@@ -7,20 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CustomerSignUp extends AppCompatActivity {
-    Button signup_btn;
+public class SupplierSignup extends AppCompatActivity {
+
+    Button supSign_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customer_sign_up);
+        setContentView(R.layout.activity_supplier_signup);
 
-        signup_btn= findViewById(R.id.supSign_btn);
-
-        signup_btn.setOnClickListener(new View.OnClickListener() {
+        supSign_btn = findViewById(R.id.supSign_btn);
+        supSign_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CustomerSignUp.this, Customer_signIn.class);
+                Intent intent = new Intent(SupplierSignup.this, SupplierLogin.class);
                 startActivity(intent);
             }
         });

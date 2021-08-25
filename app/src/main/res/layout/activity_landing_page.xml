@@ -55,11 +55,11 @@
             android:textSize="25sp" />
 
         <Spinner
+            android:id="@+id/spn"
             android:layout_width="115dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="30dp"
             android:layout_weight="30"
-            android:entries="@array/proceed_values"
             android:gravity="center"
             android:padding="15dp" />
 
