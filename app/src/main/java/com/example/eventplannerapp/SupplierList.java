@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Admin_signIn extends AppCompatActivity {
+public class SupplierList extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_sign_in);
+        setContentView(R.layout.activity_supplier_list);
     }
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/supplier"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Supplier"/>
+
+      <item
+        android:id="@+id/cat"
+          android:icon="@drawable/ic_baseline_description_24"
+        android:title="Categories"/>
+
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        android:icon="@drawable/ic_baseline_close_24"/>
+
+
+</menu>

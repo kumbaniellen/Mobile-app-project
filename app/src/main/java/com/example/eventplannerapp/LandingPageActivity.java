@@ -11,7 +11,7 @@ import android.widget.Spinner;
 
 public class LandingPageActivity extends AppCompatActivity {
 
-    String[] names = {"","Customer","Supplier","Admin"};
+    String[] names = {"","Customer","Supplier",};
 
     Spinner sp;
 
@@ -39,7 +39,7 @@ public class LandingPageActivity extends AppCompatActivity {
                         break;
 
                     case 1:
-                        Intent intent2 = new Intent(getApplicationContext(), Customer_signIn.class);
+                        Intent intent2 = new Intent(getApplicationContext(), CustomerLogIn.class);
                         startActivity(intent2);
 //                        Toast.makeText(getApplicationContext(),"you are in supplier login page", Toast.LENGTH_LONG).show();
                         break;
@@ -49,9 +49,7 @@ public class LandingPageActivity extends AppCompatActivity {
                         startActivity(intent1);
 //                        Toast.makeText(getApplicationContext(),"you are in admin login page", Toast.LENGTH_LONG).show();
                         break;
-                    case 3:
-                        startActivity(new Intent(getApplicationContext(), Admin_signIn.class));
-                        break;
+
                 }
             }
 

@@ -38,7 +38,7 @@
         android:drawableStart="@drawable/mail"
         android:drawableLeft="@drawable/mail"
         android:hint="Email Address"
-        android:inputType="textAutoComplete"
+        android:inputType="textEmailAddress"
         android:padding="15dp"
         app:layout_constraintBottom_toTopOf="@+id/edt_signup_password"
         app:layout_constraintEnd_toEndOf="parent"
